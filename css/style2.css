@@ -251,8 +251,8 @@ fieldset[disabled] .s-btn {
 
 .s-btn--white-brd:focus, .s-btn--white-brd:hover {
   color: #222324;
-  background: #fff;
-  border-color: #fff;
+  background: rgba(235, 233, 117, 0.685);
+  border-color: rgba(235, 233, 117, 0.685);
 }
 
 .s-btn--white-bg {
