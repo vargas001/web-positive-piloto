@@ -84,9 +84,7 @@
           .jsmaps-wrapper .jsmaps-console ul li button:hover {
             opacity: 1; }
 
-.jsmaps-select {
-  position: relative;
-  display: none; }
+
   .jsmaps-select.all-devices {
     display: block; }
   @media (max-width: 767px) {
@@ -119,15 +117,7 @@
       display: none; }
     .jsmaps-select select option {
       padding: 4px; }
-  .jsmaps-select .jsmaps-select-icon {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40px;
-    height: 100%;
-    border-left: 1px solid #999;
-    pointer-events: none; }
-
+ 
 [class*="jsmaps-icon"] {
   position: absolute;
   top: 50%;
