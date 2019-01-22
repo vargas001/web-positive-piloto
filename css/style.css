@@ -784,7 +784,7 @@ fieldset[disabled] .s-btn {
   height: 9.375rem;
   border: .625rem solid;
   z-index: -1;
-  border-color: #4845d4 ;
+  border-color: rgba(163, 141, 13, 0.719) ;
   content: " ";
 }
 

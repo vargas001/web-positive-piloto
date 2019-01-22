@@ -65,7 +65,7 @@ h5 a:focus,
 h5 a:hover,
 h6 a:focus,
 h6 a:hover {
-  color: #4845d4 ;
+  color: rgba(163, 141, 13, 0.719) ;
   transition-duration: 200ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -109,7 +109,7 @@ li > a {
 
 em > a:hover,
 li > a:hover {
-  color: #4845d4 ;
+  color:rgba(163, 141, 13, 0.719) ;
 }
 
 small {
@@ -139,12 +139,12 @@ p {
 
 /* Links */
 a {
-  color: #4845d4 ;
+  color: rgba(163, 141, 13, 0.719) ;
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: #4845d4 ;
+  color: rgba(163, 141, 13, 0.719) ;
   text-decoration: none;
 }
 
@@ -157,13 +157,13 @@ a:focus {
 ------------------------------------*/
 ::selection {
   color: #fff;
-  background: #4845d4 ;
+  background: rgba(163, 141, 13, 0.719) ;
   text-shadow: none;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #4845d4 ;
+  background: rgba(163, 141, 13, 0.719) ;
   text-shadow: none;
 }
 
@@ -264,7 +264,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-btn--white-bg:focus, .s-btn--white-bg:hover {
-  color: #4845d4 ;
+  color: rgba(163, 141, 13, 0.719) ;
   background: #fff;
 }
 
@@ -278,8 +278,8 @@ fieldset[disabled] .s-btn {
 
 .s-btn--dark-bg:focus, .s-btn--dark-bg:hover {
   color: #fff;
-  background: #4845d4 ;
-  border-color: #4845d4 ;
+  background: rgba(163, 141, 13, 0.719) ;
+  border-color: rgba(163, 141, 13, 0.719) ;
 }
 
 .s-btn--dark-brd {
@@ -298,30 +298,30 @@ fieldset[disabled] .s-btn {
 
 .s-btn--primary-bg {
   color: #fff;
-  background: #4845d4 ;
+  background:rgba(163, 141, 13, 0.719) ;
   border-width: 0.0625rem;
   border-style: solid;
-  border-color: #4845d4 ;
+  border-color:rgba(163, 141, 13, 0.719) ;
 }
 
 .s-btn--primary-bg:focus, .s-btn--primary-bg:hover {
   color: #fff;
-  background: #4845d4 ;
-  border-color: #4845d4 ;
+  background: rgba(163, 141, 13, 0.719) ;
+  border-color: rgba(163, 141, 13, 0.719) ;
 }
 
 .s-btn--primary-brd {
-  color: #4845d4 ;
+  color: rgba(163, 141, 13, 0.719) ;;
   background: transparent;
   border-width: 0.0625rem;
   border-style: solid;
-  border-color: #4845d4 ;
+  border-color: rgba(163, 141, 13, 0.719) ;
 }
 
 .s-btn--primary-brd:focus, .s-btn--primary-brd:hover {
   color: #fff;
-  background: #4845d4 ;
-  border-color: #4845d4 ;
+  background: rgba(163, 141, 13, 0.719) ;
+  border-color: rgba(163, 141, 13, 0.719) ;
 }
 
 .s-btn-icon--white-brd {
@@ -717,8 +717,8 @@ fieldset[disabled] .s-btn {
 
 .s-icon--white-brd:focus, .s-icon--white-brd:hover {
   color: #fff;
-  background: #4845d4 ;
-  border-color: #4845d4 ;
+  background: rgba(163, 141, 13, 0.719) ;
+  border-color: rgba(163, 141, 13, 0.719) ;
 }
 
 .s-icon--white-bg {
@@ -731,29 +731,29 @@ fieldset[disabled] .s-btn {
 }
 
 .s-icon--white-bg:focus, .s-icon--white-bg:hover {
-  color: #4845d4 ;
+  color: rgba(163, 141, 13, 0.719) ;
   background: #fff;
   border-color: #fff;
 }
 
 .s-icon--primary-brd {
-  color: #4845d4 ;
+  color: rgba(163, 141, 13, 0.719) ;
   background: transparent;
   border-width: 0.0625rem;
   border-style: solid;
-  border-color: #4845d4 ;
+  border-color: rgba(163, 141, 13, 0.719) ;
   line-height: 1.4;
 }
 
 .s-icon--primary-brd:focus, .s-icon--primary-brd:hover {
   color: #fff;
-  background: #4845d4 ;
-  border-color: #4845d4 ;
+  background: rgba(163, 141, 13, 0.719) ;
+  border-color: rgba(163, 141, 13, 0.719) ;
 }
 
 .s-icon--primary-bg {
   color: #fff;
-  background: #4845d4 ;
+  background: rgba(163, 141, 13, 0.719) ;
   line-height: 1.6;
 }
 
@@ -784,7 +784,7 @@ fieldset[disabled] .s-btn {
   height: 9.375rem;
   border: .625rem solid;
   z-index: -1;
-  border-color: #4845d4 ;
+  border-color: rgba(163, 141, 13, 0.719) ;
   content: " ";
 }
 
@@ -803,7 +803,7 @@ fieldset[disabled] .s-btn {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(145deg, rgba(152, 119, 234, 0.7) -25%, #4845d4  100%);
+  background-image: linear-gradient(145deg, rgba(152, 119, 234, 0.7) -25%, rgba(163, 141, 13, 0.719)   100%);
   background-repeat: repeat-x;
   content: " ";
 }
@@ -838,7 +838,7 @@ fieldset[disabled] .s-btn {
   bottom: 0;
   width: 100%;
   height: 0.1875rem;
-  background-image: linear-gradient(145deg, rgba(152, 119, 234, 0.9) -25%, #4845d4 100%);
+  background-image: linear-gradient(145deg, rgba(152, 119, 234, 0.9) -25%, rgba(163, 141, 13, 0.719) );
   background-repeat: repeat-x;
   content: " ";
 }
@@ -892,7 +892,7 @@ fieldset[disabled] .s-btn {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(90deg, rgba(28, 78, 172, 0.93) 0%, rgba(19, 177, 205, 0.93) 100%);
+  background-image: linear-gradient(90deg, rgb(163, 141, 13, 0.719)  0%, rgba(19, 177, 205, 0.93) 100%);
   background-repeat: repeat-x;
   content: " ";
 }
