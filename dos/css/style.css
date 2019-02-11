@@ -13,7 +13,7 @@ p{
 	margin:0;
 }
 h1,h2,h3,h4,h5,h6,a{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-weight:100;
 	margin:0;
 }
@@ -95,7 +95,7 @@ body a:hover{
 }
 .callbacks_nav {
 	position: absolute;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: rgba(189, 37, 37, 0);
 	top: 40%;
 	left: -6%;
 	opacity:1;
@@ -222,7 +222,7 @@ body a:hover{
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
-	min-height:300px;
+	min-height:0px;
 }
 .banner-info {
     padding-top: 2em;
@@ -231,11 +231,11 @@ body a:hover{
     padding-top: 2em;
 }
 .navbar-brand{
-	font-size: 2.5em;
+	font-size: 2.0em;
     color: #fff !important;
     text-decoration: none;
     text-transform: uppercase;
-    height: 85px;
+    height: 0px;
     padding-right: 0;
     letter-spacing: 1px;
 }
@@ -336,107 +336,14 @@ body a:hover{
 .banner-info-slider p span i{
 	font-style:normal;
 	color:rgb(221, 198, 67);
-	text-transform: uppercase;
+	
 }
 /*-- type-1 --*/
 .more a{
     position: relative;
 	display: block;
 }
-.type-1 span {
-	position: absolute;
-    display: block;
-    background: rgb(221, 198, 67);
-    -moz-box-sizing: border-box;
-    padding: .3em 2em .4em;
-    text-align: center;
-    -webkit-transition: all 0.3s linear;
-    transition: all 0.3s linear;
-	color: #fff;
-    text-transform: uppercase;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-    border-radius: 7px;
-	-webkit-border-radius: 7px;
-	-moz-border-radius: 7px;
-	-o-border-radius: 7px;
-	-ms-border-radius: 7px;
-	bottom: 0;
-	left:0;
-}
 
-.type-1 span:last-of-type {
-	-webkit-transform: rotateX(90deg);
-	transform: rotateX(90deg);
-	transform-origin: 0 0;
-	-webkit-transform-origin: 0 0;
-	background:rgb(221, 198, 67);
-}
-
-.type-1:hover span:last-of-type {
-	-webkit-transform: rotateX(0deg);
-	transform: rotateX(0deg);
-	background:rgb(221, 198, 67);
-	
-}
-
-.type-1:hover span:first-of-type {
-	background: #073f58;
-}
-/*-- //type-1 --*/
-/*-- //banner --*/
-/*--banner-bottom --*/
-.br-bm-gd-lt .overlay {
-    display: block;
-    position: absolute;
-    height: 300px;
-    width: 100%;
-    top: 0;
-    right: -100%;
-    transition: .4s ease-out;
-    -webkit-transition: .4s ease-out;
-}
-.br-bm-gd-lt {
-    overflow: hidden;
-    display: inline-block;
-    position: relative;
-	height: 300px;
-}
-.br-bm-gd-lt img {
-    width: 100%;
-}
-.dropdown-menu {
-    min-width: 105px;
-	padding:0;
-    top: 115%;
-}
-.dropdown-menu > li > a {
-    padding: 5px 0;
-    text-align: center;
-}
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    color: #fff;
-    background-color:#C8C8C8;
-}
-
-.br-bm-gd-lt .overlay .arrow-left {
-    position: relative;
-    left: 0;
-    width: 0;
-    height: 0;
-    top: 0;
-    bottom: 0;
-    border-bottom: 300px solid transparent;
-    border-right: 285px solid rgba(0, 0, 0, 0.85);
-    background: rgb(221, 198, 67);
-}
-.br-bm-gd-lt .overlay .rectangle {
-    display: block;
-    margin-left:0px;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255,255,255,.95);
-}
 .br-bm-gd-lt:hover .overlay {
     right: 0;
 }
@@ -448,11 +355,11 @@ body a:hover{
 	position:relative;
 }
 .br-bm-gd-lt{
-	background:url(../images/1.jpg) no-repeat 0px 0px;
+	background:url(../images/Revista2.png) no-repeat 0px 0px;
 	display:block;
 }
 .br-bm-gd-lt1{
-	background:url(../images/2.jpg) no-repeat 0px 0px;
+	background:url(../images/Revista3.jpg) no-repeat 0px 0px;
 	display:block;
 }
 .br-bm-gd-lt2{
@@ -672,7 +579,7 @@ a.breaking {
     line-height: 1.5em;
     color: #fff;
     margin: 0;
-    text-transform: uppercase;
+
 }
 .video-grid-pos ul{
 	padding:1em 0 0;
@@ -682,7 +589,7 @@ a.breaking {
 	display: inline-block;
     color: #fff;
     font-size: 1em;
-    text-transform: uppercase;
+   
     padding-right: 1em;
 }
 .video-grid-pos ul li label {
@@ -1629,7 +1536,7 @@ a.high {
 	margin:3em 0 0;
 }
 .upcoming-events-left h3,.upcoming-events-right h3,.breaking-news-grid-right h3,.gallery h3,.albums h3{
-	text-transform: uppercase;
+
     font-size: 1.1em;
     color: #fff;
     font-weight: 400;
@@ -1638,7 +1545,7 @@ a.high {
     padding: 0.8em;
 }
 .upcoming-events-right h3{
-	    background: rgb(221, 198, 67);
+	    background: rgb(14, 15, 87);
 	margin: 0 !important;
 }
 .news-eve{
@@ -1648,7 +1555,7 @@ a.high {
     width: 80%;
 }
 .news-eve h4{
-	text-transform:uppercase;
+	
 	font-size:1.2em;
 	color:#fff;
 	margin:0;
@@ -1864,7 +1771,7 @@ h4.panel-title a span{
 	font-size:.8em;
 	color:rgb(14, 15, 87);
 	line-height:1.5em;
-	text-transform:uppercase;
+	
 }
 .gallery-right1{
 	margin-bottom:1.5em;
