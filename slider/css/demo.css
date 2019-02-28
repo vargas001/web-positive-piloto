@@ -29,7 +29,7 @@ html { height: 100%; }
 }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+    
     background: #ddd url(../images/bg.jpg) repeat top left;
     font-weight: 300;
     font-size: 15px;
@@ -40,10 +40,7 @@ body {
     text-shadow: 0 1px 0 rgba(255,255,255,0.8);
 }
 
-a {
-	color: #555;
-	text-decoration: none;
-}
+
 
 .container {
 	width: 100%;
@@ -152,14 +149,14 @@ a {
 }
 
 .column {
-	width: 50%;
-	float: left;
-	padding: 20px;
+	width: 20%;
+	float: right;
+	padding: 30px;
 	min-height: 300px;
 }
 
 .column p {
-	text-align: left;
+	text-align: right;
 }
 
 .column-20 {
