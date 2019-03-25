@@ -73,7 +73,7 @@ label{
 }
 .pricing-top{
     padding: 1.2em 0;
-	background:#967b06;
+	background:#b4a308;
 	text-align:center;
 	 border-top-left-radius: 5px;
 	-webkit-border-top-left-radius: 5px;
@@ -87,10 +87,12 @@ label{
 	-o-border-top-right-radius: 5px;
 }
 .blue-top{
-	background:#967b06;
+	background:#a18a07;
+	
 }
 .green-top{
-	background:#967b06;
+	
+	background:#064496;
 }
 
 .pricing-top h3{

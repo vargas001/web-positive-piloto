@@ -99,7 +99,7 @@
       'displayAbbreviations': true,
       'displayAbbreviationOnDisabledStates': false,
       'autoPositionAbbreviations': false,
-      'stateClickAction': 'text',
+      'stateClickAction': 'url',
       'textPosition': 'right',
       'hrefTarget': '_blank',
       'textAreaWidth': 300,
@@ -107,7 +107,7 @@
       'pinSize': 10,
       'displayMousePosition': false,
       'displayViewBox': false,
-      'enablePanZoom': false,
+      'enablePanZoom': true,
       'mapFolder': 'maps/',
       'initialZoom': 0,
       'initialMapX': 0,
@@ -924,7 +924,3 @@
   };// End plugin
 
 })(jQuery);
-
-$(function(){ $(".flipster").flipster({ style: 'carousel', start: 0 }); });
-
-
