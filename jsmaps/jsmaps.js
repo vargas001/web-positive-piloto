@@ -107,7 +107,7 @@
       'pinSize': 10,
       'displayMousePosition': false,
       'displayViewBox': false,
-      'enablePanZoom': true,
+      'enablePanZoom': false,
       'mapFolder': 'maps/',
       'initialZoom': 0,
       'initialMapX': 0,
