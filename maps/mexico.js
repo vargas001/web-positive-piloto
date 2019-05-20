@@ -1,7 +1,7 @@
 
 window.JSMaps.maps.mexico = {
 	"config": {
-		"mapWidth": 1600.41846,
+		"mapWidth": 1900.41846,
 		"mapHeight": 497.54324,
 		"defaultText": ""
 	},

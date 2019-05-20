@@ -218,11 +218,18 @@
 	<div class="container g-text-center--xs g-padding-y-80--xs">
 			<p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Red Nacional de Partner Autorizado</p>
 			<h2 class="g-font-size-32--xs g-font-size-36--sm">Alianzas y Partners Positive</h2>
+
+		
 	</div>
 		
 	  
 		  <!-- Map html - add the below to your page -->
 		  <div class="jsmaps-wrapper" id="mexico-map">
+					
+
+
+
+
 					<div class="flipster">
 							<ul>
 									<li>
@@ -741,18 +748,7 @@
 		  <!-- End Map html -->
 		
 	  
-		<script type="text/javascript">
-	  
-		  $(function() {
-			
-			$('#mexico-map').JSMaps({
-			  map: 'mexico'
-			});
-	  
-		  });
-		  
-		</script>
-
+		
 <br>
 <br>
 
@@ -842,7 +838,7 @@
 	</footer>
 
 	<!-- Back To Top -->
-	<a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+
 
 	<!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
 	<!-- Vendor -->
@@ -863,12 +859,21 @@
 	<script type="text/javascript" src="js/components/scrollbar.min.js"></script>
 
 	
-	<script type="text/javascript" src="js/components/wow.min.js"></script>
-	<script type="text/javascript" src="js/components/faq.min.js"></script>
 	
 
 	<!--========== END JAVASCRIPTS ==========-->
+	<script type="text/javascript">
+	  
+		$(function() {
+		
+		$('#mexico-map').JSMaps({
+			map: 'mexico'
+		});
 	
+		});
+		
+	</script>
+
 	
 		
 </body>
